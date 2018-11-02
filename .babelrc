@@ -1,0 +1,28 @@
+{
+  "presets": [
+    "latest",
+    "react",
+    "stage-1"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "react-hmre"
+      ],
+      "ignore": [
+      ]
+    },
+    "test": {
+      "ignore": [
+      ]
+    },
+    "production": {
+      "plugins": [
+        "transform-react-constant-elements",
+        "transform-object-assign"
+      ],
+      "ignore": [
+      ]
+    }
+  }
+}
