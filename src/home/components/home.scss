@@ -1,0 +1,260 @@
+
+.login-content {
+  height: 370px;
+  background-color: whitesmoke;
+}
+
+html, body, #app, #login, #container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0px;
+}
+
+#error-text{
+  color: red;
+}
+
+#login-background {
+  background: url('../Images/background3.jpg');
+  filter: blur(1px);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+.login-welcome{
+    color: white;
+    position: absolute;
+    top: 76px;
+    left: 76px;
+    width: 725px;
+    height: 530px;
+    .welcome-header{
+      font-family: Abhaya Libre;
+      font-size: 75px;
+      padding-bottom: 20px;
+      height: 75px;
+    }
+    .welcome-content{
+      height: 405px;
+      overflow: auto;
+    }
+}
+.login-page{
+  position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+#login-snackbar div{
+  background: whitesmoke;
+  color: black;
+}
+.login-content{
+    width: 428px;
+    left: 63%;
+    position: absolute;
+    top: 135px;
+    // height: 400px;
+    height: 315px;
+    border-radius: 15px;
+    // background: rgba(109, 65, 65, 0.5);
+      background: rgba(243, 239, 239, 0.8);
+    .form-group{
+          padding: 25px;
+    }
+}
+.login-footer{
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+    color: white;
+    height: 50px;
+    text-align: right;
+    right: 75px;
+    a{
+      color: #FF5722;
+    }
+}
+.login-header{
+    position: absolute;
+    color: white;
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    #login-header-container{
+    background: rgba(0, 0, 0, 0.01);
+    padding-top: 20px;
+    box-shadow: none;
+    }
+    .button{
+    padding-right: 20px;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Source Sans Pro", Arial, Helvetica, sans-serif;
+    }
+}
+
+
+#content-scroll::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+.header-layout{
+  width: 100%;
+  display:flex;
+  .appheader{
+      height: 40px;
+      line-height: 40px;
+      font-family: cursive;
+      font-size: 38px;
+      text-align: left;
+      color: black;
+  }
+}
+.formlabel{
+  padding-top: 20px;
+  .MuiFormControl-marginNormal-38 {
+    margin-top: 8px;
+    width: 325px;
+    height: 45px;
+}
+.MuiNotchedOutline-root-35 {
+ border-color: black; 
+}
+.MuiNotchedOutline-focused-73{
+  border-color: blue;
+  border-width: 1px;
+}
+.login-button{
+  .MuiButton-textPrimary-43:hover {
+    background: none;
+  }
+}
+}
+
+.button{
+  display: inline-block;
+  color: blue;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.home-page{
+  width:100%;
+  height: 100%;
+    .MuiToolbar-root-112 {
+      padding-right: 40px;
+    }
+  .header-icons{
+    margin-left: auto;
+  }
+  .side-bar{
+    top: 64px!important;
+    width: 225px!important;
+    background:white!important;
+    .MuiListItem-button-174 {
+      text-align: center;
+    }
+  }
+  .home-content{
+    width: calc(100% - 225px);
+    height: calc(100% - 64px);
+    overflow: auto;
+    margin-left: 225px;
+    .button{
+      margin-left: auto;
+      padding-right: 30px;
+      padding-top: 9px;
+    }
+  }
+  
+  .appheader{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .ui.table {
+    margin: 0px;
+  }
+}
+
+// .MuiBackdrop-root-175{
+//   top:64px!important;
+// }
+// .MuiDrawer-paperAnchorLeft-164{
+
+
+//   width: 225px!important;
+// }
+//   .MuiDrawer-paperAnchorLeft-202{
+//       top:64px!important;
+//   }
+
+#sidebar{
+  .MuiBackdrop-root {
+    top:64px;
+    }
+    .MuiDrawer-paperAnchorLeft{
+      top:64px;
+      width:225px;
+    }
+}
+
+// #dialog-box div div{
+//     width: 500px;
+//     height: 500px;
+//     top: -55px;
+// }
+
+#dialog-box{
+.MuiPaper-root-17 {
+    width: 500px;
+    height: 500px;
+    top: -55px;
+  }
+  .MuiInputBase-input-414 {
+    width: 250px;
+  }
+  .MuiInputBase-root-404:hover {
+    color: rgba(177, 168, 168, 0.87);
+  }
+}
+
+.label{
+    text-align: right;
+    width: 175px;
+    padding-right: 30px;
+    line-height: 45px;
+    height: 45px;
+    display: inline-block;
+  }
+
+
+#Input-label{
+  input, textarea{
+    width: 250px;
+  }
+  .form-dialog{
+  align-items: center;
+}
+}
+
+#outlined-bare{
+    padding: 10.5px 14px;
+    border-radius: 6px;
+}
+#text-msg{
+      position: absolute;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    top: 339px;
+}
